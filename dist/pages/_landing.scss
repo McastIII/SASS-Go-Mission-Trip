@@ -1,0 +1,61 @@
+.banner{
+   
+    background-image: url(/dist/img/banner_home_v1.jpg);
+    background-size: cover;
+    font-family: "Segoe UI",sans-serif;
+    // position: relative;
+    // min-height: 115vh;
+    // background-size: cover;
+    // background-repeat: no-repeat;
+    // background-position: center center;
+
+    &__button{
+        .btn {
+            display: block;
+            padding: .7rem 2rem;
+            border-radius: 4rem;
+
+        }
+
+        .btn.blue {
+            margin-top: .5rem;
+            background: $clr-blue;
+            color: $clr-light;
+            padding: 1rem;
+            border: 1px solid  $clr-blue;
+            transition: .5s ease;
+            font-weight: 600;
+            font-size: 1.5rem;
+            width: 45rem;
+            height: 4.5rem;
+            text-align: center;
+
+
+            &:hover {
+                background:  #103e76;
+                color: $clr-light;
+                border: 1px solid  #103e76;
+            }
+        }
+        .btn.white {
+            margin-top: .5rem;  
+            background: $clr-light;
+            padding: 1rem;
+            color: $clr-blue;
+            border: 1px solid  $clr-light;
+            transition: .5s ease;
+            font-weight: 600;
+            font-size: 1.5rem;
+            width: 45rem;
+            height: 4.5rem;
+            text-align: center;
+
+
+            &:hover {
+                background:  #103e76;
+                color: $clr-light;
+                border: 1px solid  #103e76;
+            }
+        }
+    }
+}
