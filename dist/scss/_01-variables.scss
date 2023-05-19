@@ -13,3 +13,52 @@ $break-sm: 480px;
 $break-md: 768px;
 $break-lg: 1080px;
 $break-xl: 1920px;
+
+
+    .btn {
+        display: block;
+        padding: .7rem 2rem;
+        border-radius: 4rem;
+        margin: 0 auto;
+    }
+
+    .btn.blue {
+        margin-top: 1rem;
+        background: $clr-blue;
+        color: $clr-light;
+        padding: 1rem;
+        border: 1px solid  $clr-blue;
+        transition: .5s ease;
+        font-weight: bold;
+        font-size: 1.3rem;
+        width: 30rem;
+        height: 4rem;
+        text-align: center;
+        margin-bottom: 1rem;
+
+
+        &:hover {
+            background:  #103e76;
+            color: $clr-light;
+            border: 1px solid  #103e76;
+        }
+    }
+    .btn.white {
+        margin-top: .5rem;  
+        background: $clr-light;
+        padding: 1rem;
+        color: $clr-blue;
+        border: 1px solid  $clr-light;
+        transition: .5s ease;
+        width: 30rem;
+        font-weight: bold;
+        font-size: 1.3rem;
+        height: 4rem;
+        text-align: center;
+
+        &:hover {
+            background:  #103e76;
+            color: $clr-light;
+            border: 1px solid $clr-light;
+        }
+    }
