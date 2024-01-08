@@ -563,7 +563,7 @@ body {
 .banner {
   padding-top: 8rem;
   position: relative;
-  background-image: url(/dist/img/banner_home_v1.jpg);
+  background-image: url(/img/banner_home_v1.jpg);
   background-size: cover;
   min-height: 100vh;
   box-shadow: 5px 0 20px rgba(0, 0, 0, 0.1);
